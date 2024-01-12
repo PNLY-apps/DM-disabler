@@ -1,0 +1,15 @@
+{
+  "name": "dmdisable",
+  "version": "0.0.0",
+  "devDependencies": {
+    "wrangler": "2.20.0"
+  },
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler publish"
+  },
+  "dependencies": {
+    "discord-verify": "^1.2.0"
+  }
+}
